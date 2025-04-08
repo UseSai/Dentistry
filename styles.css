@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Sans-serif';
+    src: url('./fonts/Gilroy-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Sans-serif';
+    src: url('./fonts/Gilroy-Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'Sans-serif';
+    src: url('./fonts/Stem-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Sans-serif';
+    src: url('./fonts/Stem-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Sans-serif';
+    src: url('./fonts/Stem-Regular.otf');
+}
+
+:root {
+    --font-family: "Stem", sans-serif;
+    --second-family: "Gilroy", sans-serif;
+  }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    height: 100px;
+}
+
+.header__nav {
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.header__logo {
+    margin-left: 40px;
+    
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 114%;
+    color: #000;
+}
+
+.header__list {
+    margin-left: 400px;
+
+    display: flex;
+    gap: 24px;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.header__phone {
+    margin-left: 40px;
+}
+
+.header__phone p {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 138%;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.header__phone a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: right;
+    color: #000;
+}
+
+.header__button {
+    margin-left: 30px;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 133%;
+    text-align: center;
+    color: #fff;
+    
+    border-radius: 6px;
+    padding: 12px 24px;
+    width: 168px;
+    height: 44px;    
+    background: #00bdf8;
+}
