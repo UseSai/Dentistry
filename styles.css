@@ -1,26 +1,17 @@
 @font-face {
-    font-family: 'Sans-serif';
-    src: url('./fonts/Gilroy-Bold.ttf');
+    font-family: 'Stem';
+    src:
+    url('./fonts/Stem-Bold.otf'),
+    url('./fonts/Stem-Medium.otf'),
+    url('./fonts/Stem-Regular.otf');
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'Sans-serif';
-    src: url('./fonts/Gilroy-Semibold.ttf');
-}
-
-@font-face {
-    font-family: 'Sans-serif';
-    src: url('./fonts/Stem-Bold.otf');
-}
-
-@font-face {
-    font-family: 'Sans-serif';
-    src: url('./fonts/Stem-Medium.otf');
-}
-
-@font-face {
-    font-family: 'Sans-serif';
-    src: url('./fonts/Stem-Regular.otf');
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Bold.ttf'),
+    url('./fonts/Gilroy-Semibold.ttf');
+    font-style: normal;
 }
 
 :root {
@@ -118,4 +109,110 @@ ul {
     width: 168px;
     height: 44px;    
     background: #00bdf8;
+}
+
+.main {
+
+}
+
+.cover {
+    background-image: url(./images/coverBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.cover__card {
+    padding-top: 240px;
+}
+
+.cover__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 106%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.cover__subtitle {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.cover__buttons {
+    padding-top: 55px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover__button {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+}
+
+.reception__button {
+    color: #fff;
+
+    border-radius: 6px;
+    padding: 20px 32px;
+    width: 264px;
+    height: 56px;
+    background: #00bdf8;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 265px;
+}
+
+.about__button {
+    color: #1a236e;
+
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    padding: 20px 32px;
+    width: 204px;
+    height: 56px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.04), 0 0 4px 0 rgba(0, 0, 0, 0.04);
+    background: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 205px;
+}
+
+.cover__button-subtitle {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 133%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 25px;
+    
+}
+
+.arrow-down {
+    padding-top: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
