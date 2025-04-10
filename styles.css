@@ -46,13 +46,15 @@ ul {
 }
 
 .header {
-    height: 100px;
+    
 }
 
 .header__nav {
+    height: 100px;
     display: flex;
-    min-height: 100vh;
-    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .header__logo {
