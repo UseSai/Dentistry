@@ -121,7 +121,6 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    box-sizing: border-box;
 }
 
 .container {
@@ -129,7 +128,6 @@ ul {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 15px;
-    box-sizing: border-box;
 }
 
 .cover__card {
@@ -179,7 +177,6 @@ ul {
     width: 264px;
     height: 56px;
     background: #00bdf8;
-    box-sizing: border-box;
     display: inline-block;
     width: 265px;
 }
@@ -194,7 +191,6 @@ ul {
     height: 56px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.04), 0 0 4px 0 rgba(0, 0, 0, 0.04);
     background: #fff;
-    box-sizing: border-box;
     display: inline-block;
     width: 205px;
 }
@@ -215,4 +211,88 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.team {
+
+}
+
+.team__card {
+    padding-top: 120px;
+}
+
+.team__subtitle {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 130%;
+    text-align: center;
+    color: #00bdf8;
+}
+
+.team__title {
+    padding-top: 25px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 106%;
+    text-align: center;
+    color: #000;
+}
+
+.team__sign {
+    padding-top: 25px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.team__employee-cards {
+    padding-top: 65px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__photo {
+
+}
+
+.team__name {
+    padding-top: 25px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000;
+}
+
+.team__info {
+    padding-top: 10px;
+    padding-bottom: 120px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.team__employee-first {
+
+}
+
+.team__employee-second {
+
+}
+
+.team__employee-third {
+
+}
+
+.team__employee-fourth {
+
 }
