@@ -181,7 +181,7 @@ ul {
     width: 265px;
 }
 
-.about__button {
+.aboutus__button {
     color: #1a236e;
 
     border: 1px solid rgba(0, 0, 0, 0.06);
@@ -211,10 +211,6 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.team {
-
 }
 
 .team__card {
@@ -258,10 +254,6 @@ ul {
     align-items: center;
 }
 
-.team__photo {
-
-}
-
 .team__name {
     padding-top: 25px;
     font-family: var(--font-family);
@@ -281,18 +273,62 @@ ul {
     color: rgba(0, 0, 0, 0.7);
 }
 
-.team__employee-first {
-
+.about {
+    background-image: url(./images/aboutBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 590px;
 }
 
-.team__employee-second {
-
+.about__subtitle {
+    padding-top: 100px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: #00bdf8;
 }
 
-.team__employee-third {
-
+.about__title {
+    padding-top: 15px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 108%;
+    text-align: center;
+    color: #fff;
 }
 
-.team__employee-fourth {
+.about__sign {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
 
+.about__button {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: #fff;
+
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding: 20px 32px;
+    width: 161px;
+    height: 56px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.04), 0 0 4px 0 rgba(0, 0, 0, 0.04);
+    background: #00bdf8;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
