@@ -587,3 +587,34 @@ ul {
     text-align: center;
     color: rgba(0, 0, 0, 0.4);
 }
+
+.partners {
+
+}
+
+.partners__title {
+    padding-top: 120px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 106%;
+    text-align: center;
+    color: #000;
+}
+
+.partners__subtitle {
+    padding-top: 25px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.partners__list {
+    padding-top: 65px;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 120px;
+}
