@@ -618,3 +618,126 @@ ul {
     gap: 30px;
     padding-bottom: 120px;
 }
+
+.signing {
+    background-image: url(./images/signingBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.signing__title {
+    padding-top: 100px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 108%;
+    text-align: center;
+    color: #fff;
+}
+
+.signing__subtitle {
+    padding-top: 15px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.signing__input {
+    padding-top: 40px;
+}
+
+.signing__input-name {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: rgba(0, 0, 0, 0.2);
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 540px;
+    height: 56px;
+    background: #fff;
+}
+
+.signing__input-phone {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: rgba(0, 0, 0, 0.2);
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 540px;
+    height: 56px;
+    background: #fff;
+}
+
+.signing__input-mail {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: rgba(0, 0, 0, 0.2);
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 540px;
+    height: 56px;
+    background: #fff;
+}
+
+.signing-service__title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: #fff;
+}
+
+.signing-service__list {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: #fff;
+    list-style-image: url(./images/Off.png);
+    list-style-position: inside;
+}
+
+.signing__button {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+    padding: 20px 40px;
+    width: 540px;
+    height: 56px;
+    background: #00bdf8;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signing__sign {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 138%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.signing__marked {
+    color: #fff;
+}
