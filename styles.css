@@ -753,3 +753,38 @@ ul {
 .signing__marked {
     color: #fff;
 }
+
+.footer {
+    text-align: center;
+}
+
+.footer__social-media {
+    display: flex;
+    padding-top: 80px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_list {
+    padding-top: 40px;
+    display: flex;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: rgba(0, 0, 0, 0.8);
+    gap: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer small {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 133%;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 80px;
+}
