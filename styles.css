@@ -649,9 +649,12 @@ ul {
 
 .signing__input {
     padding-top: 40px;
+    text-align: center;
+    padding-bottom: 25px;
 }
 
 .signing__input-name {
+    padding-left: 20px;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
@@ -666,6 +669,7 @@ ul {
 }
 
 .signing__input-phone {
+    padding-left: 20px;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
@@ -680,6 +684,7 @@ ul {
 }
 
 .signing__input-mail {
+    padding-left: 20px;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
@@ -694,6 +699,8 @@ ul {
 }
 
 .signing-service__title {
+    padding-bottom: 10px;
+    padding-left: 270px;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -702,6 +709,8 @@ ul {
 }
 
 .signing-service__list {
+    gap: 10px;
+    padding-left: 270px;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
@@ -709,6 +718,7 @@ ul {
     color: #fff;
     list-style-image: url(./images/Off.png);
     list-style-position: inside;
+    padding-bottom: 50px;
 }
 
 .signing__button {
@@ -730,6 +740,8 @@ ul {
 }
 
 .signing__sign {
+    padding-top: 25px;
+    text-align: center;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 13px;
